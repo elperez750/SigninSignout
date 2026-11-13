@@ -53,15 +53,30 @@
         </FrameLayout>
 
         <EditText
-            android:id="@+id/inputName"
+            android:id="@+id/inputFirstName"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="60dp"
             android:background="@drawable/background_input"
-            android:hint="@string/name"
+            android:hint="@string/first_name"
             android:imeOptions="actionNext"
             android:importantForAutofill="no"
-            android:inputType="text"
+            android:inputType="textPersonName|textCapWords"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/primary_text"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/inputLastName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_input"
+            android:hint="@string/last_name"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName|textCapWords"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
             android:textColor="@color/primary_text"
@@ -71,7 +86,7 @@
             android:id="@+id/inputEmail"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="20dp"
             android:hint="@string/email"
             android:background="@drawable/background_input"
             android:imeOptions="actionNext"

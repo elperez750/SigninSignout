@@ -11,4 +11,20 @@
     <string name="name">Name</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="sign_up">Sign Up</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="fill_all_fields">Please fill in all fields.</string>
+    <string name="invalid_email">Please enter a valid email address.</string>
+    <string name="password_too_short">Password must contain at least 6 characters.</string>
+    <string name="password_mismatch">Passwords do not match.</string>
+    <string name="try_again">Please try again.</string>
+    <string name="sign_in_success">Sign in successful!</string>
+    <string name="sign_in_failed">Sign in failed: %1$s</string>
+    <string name="sign_up_failed">Registration failed: %1$s</string>
+    <string name="sign_up_success">Account created! Please sign in.</string>
+    <string name="profile_save_failed">Account created, but profile could not be saved. Check your connection and tap Retry Save Profile.</string>
+    <string name="retry_profile">Retry Save Profile</string>
+    <string name="signed_in_as">Signed in as %1$s</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="image_load_failed">Could not open this image. Please choose another photo.</string>
 </resources>
